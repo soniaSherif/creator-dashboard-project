@@ -1,4 +1,8 @@
 [[redirects]]
   from = "/index.html"
   to = "/youtube.html"
+  status = 301
+  force = false
+  query = {path = ":path"}
+  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
 
